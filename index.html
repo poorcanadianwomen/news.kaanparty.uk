@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =========================
+         DISCORD / SOCIAL EMBED
+         ========================= -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="news.kaanparty.uk">
+    <meta property="og:description" content="Live news and updates.">
+    <meta property="og:url" content="https://news.kaanparty.uk/">
+    <meta property="og:image" content="https://git.kaanparty.uk/icon.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="news.kaanparty.uk">
+    <meta name="twitter:description" content="Live news and updates.">
+    <meta name="twitter:image" content="https://git.kaanparty.uk/icon.png">
+
+    <title>funniess</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        /* =========================
+           PAGE
+           ========================= */
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+
+            background: #050505;
+            color: #d6d6d6;
+
+            font-family: "Courier New", Courier, monospace;
+        }
+
+
+        .page {
+            width: min(1100px, calc(100% - 30px));
+
+            min-height: 100vh;
+
+            margin: 0 auto;
+
+            padding: 15px 0 35px;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        /* =========================
+           ASCII LOGO
+           ========================= */
+
+        .logo-wrapper {
+            width: 100%;
+
+            text-align: center;
+
+            overflow: hidden;
+
+            margin: 0 auto;
+        }
+
+
+        .ascii-logo {
+            display: inline-block;
+
+            margin: 0;
+            padding: 0;
+
+            color: #d6d6d6;
+
+            font-family: "Courier New", Courier, monospace;
+
+            font-size: 8px;
+            line-height: 8px;
+
+            text-align: left;
+
+            white-space: pre;
+        }
+
+
+        /* =========================
+           NEWS TITLE
+           ========================= */
+
+        .news-title {
+            text-align: center;
+
+            margin: 25px 0 30px;
+
+            color: #888;
+
+            font-size: 12px;
+        }
+
+
+        /* =========================
+           DEFAULT NEWS WINDOW
+           ========================= */
+
+        .default-window {
+            width: 768px;
+            height: 1024px;
+
+            max-width: 100%;
+
+            margin: 40px auto;
+
+            background: #bdbdbd;
+
+            border: 1px solid #777;
+
+            box-shadow:
+                0 0 0 1px #222,
+                0 0 25px rgba(255, 255, 255, 0.03);
+
+            overflow: hidden;
+        }
+
+
+        /* =========================
+           NEWS WINDOW CONTENT
+           ========================= */
+
+        .default-window-content {
+            width: 100%;
+            height: 100%;
+
+            padding: 35px;
+
+            background: #bdbdbd;
+
+            color: #111;
+
+            font-family: "Ethereal Demo";
+            text-align: center;
+        }
+
+
+        /* =========================
+           MOBILE
+           ========================= */
+
+        @media (max-width: 800px) {
+
+            .page {
+                width: calc(100% - 20px);
+
+                padding-top: 15px;
+            }
+
+
+            .ascii-logo {
+                font-size: 5px;
+                line-height: 5px;
+            }
+
+
+            .news-title {
+                font-size: 11px;
+
+                margin-top: 20px;
+            }
+
+
+            .default-window {
+                width: 100%;
+
+                height: 80vh;
+
+                margin-top: 25px;
+            }
+
+
+            .default-window-content {
+                padding: 20px;
+            }
+        }
+    
+           .RSS-Link {
+         
+        text-align:center 
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="page">
+
+    <!-- =========================
+         ASCII LOGO
+         ========================= -->
+
+    <div class="logo-wrapper">
+
+<pre class="ascii-logo">
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                   ##                                                                                                            ##       
+                                                   ##                                                                      ##                                    ##       
+                                                   ##                                                                      ##                                    ##       
+ ##.####    .####:  ##      ##  :#####.            ##   ##:   :####     :####    ##.####   ##.###:    :####     ##.####  #######   ##    ##            ##    ##  ##   ##: 
+ #######   .######: ##.    .## ########            ##  ##:    ######    ######   #######   #######:   ######    #######  #######   :##  ##             ##    ##  ##  ##:  
+ ###  :##  ##:  :##  #: ## :#  ##:  .:#            ##:##:     #:  :##   #:  :##  ###  :##  ###  ###   #:  :##   ###.       ##       ##: ##.            ##    ##  ##:##:   
+ ##    ##  ######## :#:.##.:#: ##### .             ####        :#####    :#####  ##    ##  ##.  .##    :#####   ##         ##       ###:##             ##    ##  ####     
+ ##    ##  ########  # :##:##  .######:            #####     .#######  .#######  ##    ##  ##    ##  .#######   ##         ##       .## #              ##    ##  #####    
+ ##    ##  ##        ## ## ##     .: ##            ##.###    ## .  ##  ## .  ##  ##    ##  ##.  .##  ## .  ##   ##         ##        ####.             ##    ##  ##.###   
+ ##    ##  ###.  :#  ###::##   #:.  :##     ##     ##  ##:   ##:  ###  ##:  ###  ##    ##  ###  ###  ##:  ###   ##         ##.       :###       ##     ##:  ###  ##  ##:  
+ ##    ##  .#######  :##..##:  ########     ##     ##  :##   ########  ########  ##    ##  #######:  ########   ##         #####      ##        ##      #######  ##  :##  
+ ##    ##   .#####:  .##  ##   . ####       ##     ##   ###    ###.##    ###.##  ##    ##  ##.###:     ###.##   ##         .####      ##.       ##       ###.##  ##   ### 
+                                                                                           ##                                        :##                                  
+                                                                                           ##                                       ###:                                  
+                                                                                           ##                                       ###                                   
+                                                                                                                                                                          
+</pre>
+
+    </div>
+    
+<div class="RSS-Link">
+    <a href="https://news.kaanparty.uk/RSS.xml">
+        Would you like to use RSS?
+    </a>
+</div>
+
+    <!-- =========================
+         TITLE
+         ========================= -->
+
+    <h2 class="news-title">
+the announcement from discord or from anything i consider important will be showed on this page! 
+hall of shame included! 
+    </h2>
+
+    <!-- =========================
+         DEFAULT NEWS WINDOW
+         ========================= -->
+
+    <div class="default-window">
+
+        <div class="default-window-content">
+<h2>Hi welcome to the first news report of the website's first existance!</h2>
+<p>Local Timhortons Îles-de-la-Madeleine, will close permanently on September 5, 2026</p>
+<p>Franchisee Patrick Chevarie cited a severe labor shortage exacerbated by recent federal and provincial restrictions on temporary foreign worker permits, which prevented the renewal of visas for key staff. </p>
+<img src="https://cfim.ca/wp-content/uploads/2026/03/2026-03-03-Tim-Hortons-Cap-aux-Meules-CFIM-PPB.jpg"
+width="700"
+>
+<a href="https://cfim.ca/fin-du-peq-le-restaurant-tim-hortons-des-iles-menace-de-fermeture/">Image uploaded by CFIM.ca</a>
+<p>Government decided to close permenantly the restaurant Timhortons due to lots of imigrants coming into our country</p>
+<p>The closure is widely viewed as a significant loss of a social hub for the archipelago’s nearly 13,000 residents, particularly during the off-season when few other businesses remain open.  Mayor Antonin Valiquette and local officials describe the shutdown as symptomatic of broader demographic challenges, including rapid population aging and difficulties retaining workers in remote regions</p>
+<p>His restaurant could only count on two Canadian employees, he explained on the radio. The others came from abroad. After the pandemic, in 2022, the franchisee says it spent $200,000 to recruit foreign workers. It attracted 14 to the archipelago, including 13 from the Philippines.
+
+But in the fall of 2024, the Canadian federal government limited the maximum proportion of low-wage temporary foreign workers (TFWs) within a company to 10%. Previous thresholds were 20% or 30%.</p>
+
+<h3>REST IN PEACE TIM HORTONS! </h3>
+<a href="https://www.lapresse.ca/actualites/regional/2026-08-17/les-iles-de-la-madeleine-perdent-leur-unique-tim-hortons.php">The Magdalen Islands lose their only Tim Hortons</a>
+<a href="https://www.ilesdelamadeleine.com/2026/03/05/tim-hortons-des-iles-menace-de-fermeture-faute-de-travailleurs/">ilesdelamadeleine.com</a>
+</div>
+
+
+</div>
+
+</body>
+
+</html>
