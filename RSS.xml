@@ -1,0 +1,73 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/">
+
+    <channel>
+
+        <title>news.kaanparty.uk</title>
+
+        <link>https://news.kaanparty.uk/</link>
+
+        <description>local news</description>
+
+        <language>en-us</language>
+
+        <image>
+            <url>https://git.kaanparty.uk/icon.png</url>
+            <title>news.kaanparty.uk</title>
+            <link>https://news.kaanparty.uk/</link>
+        </image>
+
+        <item>
+
+            <title>Hi welcome to the first news report of the website's first existance!</title>
+
+            <link>https://news.kaanparty.uk/</link>
+
+            <guid isPermaLink="true">
+                https://news.kaanparty.uk/
+            </guid>
+
+            <pubDate>Thu, 20 Aug 2026 21:00:00 -0300</pubDate>
+
+            <description><![CDATA[
+
+<h2>Hi welcome to the first news report of the website's first existance!</h2>
+
+<p>Local Timhortons Îles-de-la-Madeleine, will close permanently on September 5, 2026</p>
+
+<p>Franchisee Patrick Chevarie cited a severe labor shortage exacerbated by recent federal and provincial restrictions on temporary foreign worker permits, which prevented the renewal of visas for key staff.</p>
+
+<img src="https://cfim.ca/wp-content/uploads/2026/03/2026-03-03-Tim-Hortons-Cap-aux-Meules-CFIM-PPB.jpg" width="700">
+
+<a href="https://cfim.ca/fin-du-peq-le-restaurant-tim-hortons-des-iles-menace-de-fermeture/">Image uploaded by CFIM.ca</a>
+
+<p>Government decided to close permenantly the restaurant Timhortons due to lots of imigrants coming into our country</p>
+
+<p>The closure is widely viewed as a significant loss of a social hub for the archipelago’s nearly 13,000 residents, particularly during the off-season when few other businesses remain open. Mayor Antonin Valiquette and local officials describe the shutdown as symptomatic of broader demographic challenges, including rapid population aging and difficulties retaining workers in remote regions</p>
+
+<p>His restaurant could only count on two Canadian employees, he explained on the radio. The others came from abroad. After the pandemic, in 2022, the franchisee says it spent $200,000 to recruit foreign workers. It attracted 14 to the archipelago, including 13 from the Philippines.</p>
+
+<p>But in the fall of 2024, the Canadian federal government limited the maximum proportion of low-wage temporary foreign workers (TFWs) within a company to 10%. Previous thresholds were 20% or 30%.</p>
+
+<h3>REST IN PEACE TIM HORTONS! </h3>
+
+<a href="https://www.lapresse.ca/actualites/regional/2026-08-17/les-iles-de-la-madeleine-perdent-leur-unique-tim-hortons.php">The Magdalen Islands lose their only Tim Hortons</a>
+
+<a href="https://www.ilesdelamadeleine.com/2026/03/05/tim-hortons-des-iles-menace-de-fermeture-faute-de-travailleurs/">ilesdelamadeleine.com</a>
+
+            ]]></description>
+
+            <media:content
+                url="https://cfim.ca/wp-content/uploads/2026/03/2026-03-03-Tim-Hortons-Cap-aux-Meules-CFIM-PPB.jpg"
+                medium="image"
+            />
+
+        </item>
+
+    </channel>
+
+</rss>
+```
